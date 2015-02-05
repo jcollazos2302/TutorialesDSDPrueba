@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="21d117f1-9b03-4f20-89e5-25e0a607d559" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:44906/Sede2.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Sede2.xsd" MetadataType="Schema" ID="2bb38bcb-544d-4bca-8535-b8f73d229d96" SourceId="1" SourceUrl="http://localhost:44906/Sede2.svc?xsd=xsd1" />
+    <MetadataFile FileName="Sede21.xsd" MetadataType="Schema" ID="161e2f2d-d274-48b1-ab88-613d5ae9de78" SourceId="1" SourceUrl="http://localhost:44906/Sede2.svc?xsd=xsd0" />
+    <MetadataFile FileName="Sede22.xsd" MetadataType="Schema" ID="aaf490c3-53db-495f-8920-11245743c5db" SourceId="1" SourceUrl="http://localhost:44906/Sede2.svc?xsd=xsd2" />
+    <MetadataFile FileName="Sede2.wsdl" MetadataType="Wsdl" ID="f9f8ae92-b94b-495a-a849-b669c60a0a2d" SourceId="1" SourceUrl="http://localhost:44906/Sede2.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

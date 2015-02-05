@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPServices", "SOAPServices\SOAPServices.csproj", "{AA74760F-5684-4012-97F3-925F8CF0B6AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librerias", "Librerias", "{58A319F7-3BB8-4511-ABAA-F60EBF257B11}"
+	ProjectSection(SolutionItems) = preProject
+		Librerias\Iesi.Collections.dll = Librerias\Iesi.Collections.dll
+		Librerias\NHibernate.dll = Librerias\NHibernate.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTServices", "RESTServices\RESTServices.csproj", "{DDEE19AA-3243-4401-BDEA-A04B5C0B1A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTTests", "RESTTests\RESTTests.csproj", "{BE1EDC15-F758-424D-A8C0-9D23F93BDE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73D88A6D-5923-4520-90B2-ACE60146C4B2}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SOAPServicesDSD.vsmdi = SOAPServicesDSD.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SOAPClient", "SOAPClient\", "{9E0ACCC7-9DE5-48CB-ACD6-3F14CA22DA9E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}|SOAPServicesADONet.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SOAPClient"
+		Debug.AspNetCompiler.PhysicalPath = "SOAPClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SOAPClient\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SOAPClient"
+		Release.AspNetCompiler.PhysicalPath = "SOAPClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SOAPClient\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "13270"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{AA74760F-5684-4012-97F3-925F8CF0B6AB} = {AA74760F-5684-4012-97F3-925F8CF0B6AB}
+		{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A} = {5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPServicesADONet", "SOAPServicesADONet\SOAPServicesADONet.csproj", "{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SOAPServicesDSD.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA74760F-5684-4012-97F3-925F8CF0B6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA74760F-5684-4012-97F3-925F8CF0B6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA74760F-5684-4012-97F3-925F8CF0B6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA74760F-5684-4012-97F3-925F8CF0B6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEE19AA-3243-4401-BDEA-A04B5C0B1A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEE19AA-3243-4401-BDEA-A04B5C0B1A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEE19AA-3243-4401-BDEA-A04B5C0B1A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEE19AA-3243-4401-BDEA-A04B5C0B1A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1EDC15-F758-424D-A8C0-9D23F93BDE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1EDC15-F758-424D-A8C0-9D23F93BDE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1EDC15-F758-424D-A8C0-9D23F93BDE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1EDC15-F758-424D-A8C0-9D23F93BDE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0ACCC7-9DE5-48CB-ACD6-3F14CA22DA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0ACCC7-9DE5-48CB-ACD6-3F14CA22DA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0ACCC7-9DE5-48CB-ACD6-3F14CA22DA9E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0ACCC7-9DE5-48CB-ACD6-3F14CA22DA9E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED58F61-B645-4EB1-9EDC-8EA7B5AD486A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
